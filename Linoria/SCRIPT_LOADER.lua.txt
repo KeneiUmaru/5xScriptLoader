@@ -2,8 +2,9 @@
 -- New example script written by wally
 -- You can suggest changes with a pull request or something
 
-local ScriptLoader = 'https://raw.githubusercontent.com/KeneiUmaru/5xScriptLoader/main/'
+local ScriptLoader = 'https://raw.githubusercontent.com/KeneiUmaru/5xScriptLoader/main/Linoria'
 
+local Libary = loadstring(gqme:HttpGet(ScriptLoader .. 'LINORIA_REWORK_BY_KENEI.lua.txt'))()
 local SourceLoader = loadstring(game:HttpGet(ScriptLoader .. 'ScriptLoaded/SourceCode.lua'))()
 local ThemeManager = loadstring(game:HttpGet(ScriptLoader .. 'AddonsUi/ThemeManager.lua'))()
 local SaveManager = loadstring(game:HttpGet(ScriptLoader .. 'AddonsUi/SaveManager.lua'))()
